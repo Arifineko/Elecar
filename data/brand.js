@@ -9,7 +9,7 @@ const brands = [{
         speed: '356 Km/h',
         fuel: 'Electric'
     },
-    price: 175.700
+    priceCents: 17570
 }, {
     name: 'Porsche',
     type: 'Taycan',
@@ -19,7 +19,7 @@ const brands = [{
         speed: '356 Km/h',
         fuel: 'Electric'
     },
-    price: 114.500
+    priceCents: 11450
 }, {
     name: 'Porsche',
     type: 'Turbo S Cross',
@@ -29,5 +29,5 @@ const brands = [{
         speed: '356 Km/h',
         fuel: 'Electric'
     },
-    price: 190.900
+    priceCents: 19090
 }];

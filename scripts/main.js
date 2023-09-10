@@ -1,5 +1,6 @@
 import { brands } from "../data/brand.js";
 import { featured } from "../data/featured.js";
+import { formatCurrency } from "./utils/money.js";
 
 
 const menuToggle = document.querySelector(".js-toggle")
@@ -51,7 +52,7 @@ brands.forEach((brand) => {
                     <p>${brand.specification.fuel}</p>
                 </div>
             </div>
-            <div class="brand-price">$${(brand.price).toFixed(3)} </div>
+            <div class="brand-price">$${formatCurrency(brand.priceCents)} </div>
             <div class="popular-button">
                 <button>
                     <img src="assets/button-icon.svg" alt="">
@@ -82,7 +83,7 @@ featured.forEach((feature) => {
                 <div>
                     ${feature.image}
                 </div>
-                <div class="brand-price">$${(feature.price).toFixed(3)}</div>
+                <div class="brand-price">$${formatCurrency(feature.priceCents)}</div>
                 <div class="popular-button">
                     <button>
                         <img src="assets/button-icon.svg" alt="">
