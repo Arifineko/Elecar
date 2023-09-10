@@ -1,0 +1,35 @@
+.logo-section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 106px;
+}
+
+.grid-logos img {
+    cursor: pointer;
+}
+
+@media screen and (width <=600px) {
+    .grid-logos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 70px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 885px) {
+    .grid-logos {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 200px;
+        row-gap: 80px;
+    }
+}

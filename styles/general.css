@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A0A0B;
+    color: white;
+
+}
+
+.grey-color {
+    color: #BABEC4;
+    font-size: 13px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.active {
+    color: #4177DC;
+    text-shadow: 0 0 16px #4177DC;
+}

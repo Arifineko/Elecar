@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/popular.css">
+    <link rel="stylesheet" href="styles/features.css">
+    <link rel="stylesheet" href="styles/featured.css">
+    <link rel="stylesheet" href="styles/offer.css">
+    <link rel="stylesheet" href="styles/logo.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>Elecar</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="assets/logo.svg" alt="">
+            <p>Elecar</p>
+        </div>
+        <nav>
+            <ul>
+                <a href="#home" class="js-nav-link active">Home</a>
+                <a href="#about" class="js-nav-link">About</a>
+                <a href="#popular" class="js-nav-link">Popular</a>
+                <a href="#featured" class="js-nav-link">Featured</a>
+            </ul>
+        </nav>
+
+        <!-- it will display when width less than 600px -->
+        <div class="menu js-menu">
+            <div class="small-header">
+                <div class="logo-menu">
+                    <img src="assets/logo.svg" alt="">
+                    <p>Elecar</p>
+                </div>
+                <div class="menu-toggle js-toggle js-remove-class">
+                     <img src="assets/menu.svg" alt="" class="hamburger-menu">
+                </div> 
+            </div>
+            <div class="display-menu">
+                <div class="container-menu js-nav-second">
+                    <div class="close">
+                        <img src="assets/close-menu.svg" alt="" class="close-icon">
+                    </div>
+                    <ul class="list-menu">
+                        <a href="#home" class="js-nav-link active">Home</a>
+                        <a href="#about" class="js-nav-link">About</a>
+                        <a href="#popular" class="js-nav-link">Popular</a>
+                        <a href="#featured" class="js-nav-link">Featured</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="hero-section js-section">
+            <img src="assets/shape big.svg" alt="" class="big-shape">
+            <img src="assets/shape small.svg" alt="" class="small-shape">
+            <div class="home-car">
+                <div class="home-title">Choose The Best Car</div>
+                <div class="home-car-name">Porsche Mission E</div>
+                <div class="home-car-details">
+                    <img src="assets/thunder.svg" alt="">
+                    <p>Electric car</p>
+                </div>
+                <div>
+                    <img src="assets/Electric-car.svg" alt="" class="img-electric-car">
+                </div>
+            </div>
+            <div class="home-data-car">
+                <div class="data-details">
+                    <div class="ellipse">
+                        <img src="assets/temperature-cold.svg" alt="">
+                    </div>
+                    <div>24°</div>
+                    <div class="data-type">TEMPERATURE</div>
+                </div>
+                <div class="data-details">
+                    <div class="ellipse">
+                        <img src="assets/Km.svg" alt="">
+                    </div>
+                    <div>873</div>
+                    <div class="data-type">MILEAGE</div>
+                </div>
+                <div class="data-details">
+                    <div class="ellipse">
+                        <img src="assets/light.svg" alt="">
+                    </div>
+                    <div>94%</div>
+                    <div class="data-type">BATTERY</div>
+                </div>
+            </div>
+            <div class="home-button">
+                <div class="ellipse-start1">
+                    <div class="ellipse-start2">
+                        <button class="start-button">START</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about-section js-section">
+            <div class="about-image-container">
+                <img src="assets/about1.svg" alt="" class="img-about">
+                <div class="about-count">
+                    <p class="count-total">2500+</p>
+                    <p class="count-details">Supercharges placed along popular routes</p>
+                </div>
+            </div>
+            <div class="about-info">
+                <div class="about-title">Machines With Future Technology</div>
+                <div class="about-details">See the future with high-performance electric cars produced by renowned brands. They feature futuristic builds and designs with new and innovative platforms that last a long time.</div>
+                <div>
+                    <button class="know-more-button">Know more</button>
+                </div> 
+            </div>
+        </section>
+        <section id="popular" class="popular-section js-section">
+            <div class="main-title">
+                <p>Choose Your Electric Car Of The Porsche Brand</p>
+            </div>
+            <div class="brand-container js-brand-container"></div>
+        </section>
+        <section id="featured" class="features-section js-section">
+            <div>
+                <p class="title-features">More Features</p>
+            </div>
+            <div class="features-content">
+                <div class="map">
+                    <img src="assets/Map.svg" alt="">
+                </div>
+                <img src="assets/featured-car.svg" alt="">
+                <div class="features-details">
+                    <div class="features-text">
+                        <p class="text-blur1">800v</p>
+                        <p class="text-blur2">Turbo Chargin</p>
+                    </div>
+                </div>
+                <div class="features-details2">
+                    <div class="features-text">
+                        <p class="text-blur1">350v</p>
+                        <p class="text-blur2">Km range</p>
+                    </div>
+                </div>
+                <div class="features-details3">
+                    <div class="features-text">
+                        <p class="text-blur1">480</p>
+                        <p class="text-blur2">Km travel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-section">
+            <div class="title-featured">
+                <p>Featured Luxury Cars</p>
+            </div>
+            <div class="container-button">
+                <button class="button-type-car-active">
+                    All
+                </button>
+                <button class="button-type-car">
+                    <img src="assets/logo3.svg" alt="">
+                </button>
+                <button class="button-type-car">
+                    <img src="assets/logo2.svg" alt="">
+                </button>
+                <button class="button-type-car">
+                    <img src="assets/logo1.svg" alt="">
+                </button>
+            </div>
+            <div class="grid-car js-grid-car"></div>
+        </section>
+        <section class="offer-section">
+            <div class="offer-container">
+                <div class="subscribe-container">
+                    <p class="offer-title">Do You Want To Receive 
+                        Special Offers?</p>
+                    <p class="subscribe-text">Be the first to receive all the information about our products and new cars by email by subscribing to our mailing list.</p>
+                    <div class="container-subscribe-button">
+                        <button class="subscribe-button">Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="image-subscribe">
+                    <img src="assets/subscribe-car.svg" alt="" >
+                </div>
+            </div>
+        </section>
+        <section class="logo-section">
+            <div class="grid-logos">
+                <img src="assets/logo/logo-1.svg" alt="">
+                <img src="assets/logo/logo-2.svg" alt="">
+                <img src="assets/logo/logo-3.svg" alt="">
+                <img src="assets/logo/logo-4.svg" alt="">
+                <img src="assets/logo/logo-5.svg" alt="">
+                <img src="assets/logo/logo-6.svg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="shape-left">
+            <img src="assets/logo/shape.png" alt="">
+        </div>
+        <div class="shape-right">
+            <img src="assets/logo/shape.png" alt="">
+        </div>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <div class="logo-footer">
+                    <img src="assets/logo/logo-footer.svg" alt="">
+                    <p>Elecar</p>
+                </div>
+                <div>
+                    <p class="footer-text">We offer the best electric cars of the most recognized brands in the world.</p>
+                </div>
+            </div>
+            <div class="footer-list">
+                <div>
+                    <p class="title-footer">Company</p>
+                </div>
+                <div>
+                    <ul class="list-link">
+                        <a href="#">About</a>
+                        <a href="#">Cars</a>
+                        <a href="#">History</a>
+                        <a href="#">Shop</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-list">
+                <div>
+                    <p class="title-footer">Information</p>
+                </div>
+                <div>
+                    <ul class="list-link">
+                        <a href="#">Request a qoute</a>
+                        <a href="#">Find a dealer</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Services</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-media">
+                <div>
+                    <P class="title-footer">Follow us</P>
+                </div>
+                <div class="logo-social-media">
+                    <img src="assets/logo/facebook.svg" alt="">
+                    <img src="assets/logo/instagram.svg" alt="">
+                    <img src="assets/logo/twitter.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <img src="assets/logo/copyrigth.svg" alt="">
+            </div>
+            <div>
+                <p class="text-copyright">Arifin</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/navbar.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

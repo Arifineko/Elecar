@@ -1,0 +1,125 @@
+.hero-section {
+    position: relative;
+    height: 879PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.small-shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 620px) {
+    .big-shape {
+        width: 100%;
+    }
+
+    .small-shape {
+        width: 100%;
+    }
+
+    .img-electric-car {
+        width: 320px;
+    }
+}
+
+.home-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.home-car-name {
+    font-size: 24px;
+}
+
+.home-car-details {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    color: #BABEC4;
+}
+
+.home-data-car {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.data-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.data-type {
+    color: #888B91;
+    font-size: 13px;
+}
+
+.ellipse {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #000104;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ellipse-start1 {
+    border: 2px solid #02DB8A;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 16px #02DB8A;
+}
+
+.ellipse-start2 {
+    height: 70px;
+    width: 70px;
+    border: 2px solid #099260;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.start-button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 14px;
+}

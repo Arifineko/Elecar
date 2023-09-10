@@ -1,0 +1,117 @@
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-container {
+    display: flex;
+    gap: 8px;
+    font-size: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+    cursor: pointer;
+}
+
+nav ul a {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 620px) {
+    nav {
+        display: none;
+    }
+
+    .logo-container {
+        display: none;
+    }
+}
+
+@media (min-width: 621px) {
+    .menu {
+        display: none;
+        position: relative;
+    }
+
+
+}
+
+
+.logo-menu {
+    display: flex;
+    gap: 8px;
+    font-size: 1rem;
+}
+
+.hamburger-menu {
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    top: 33px;
+}
+
+.display-menu {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: none;
+
+
+}
+
+.menu-active {
+    display: block;
+}
+
+.close-icon {
+    position: absolute;
+    right: 36px;
+    top: 25px;
+    cursor: pointer;
+    width: 20px;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    position: relative;
+}
+
+.list-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-size: 1rem;
+}
+
+.list-menu a {
+    color: white;
+}
+
+.none {
+    display: none;
+}
+
+.small-header {
+    margin-left: -18px;
+}
