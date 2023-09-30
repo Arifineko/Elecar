@@ -7,13 +7,6 @@ const menuToggle = document.querySelector(".js-toggle")
 const menuElement = document.querySelector('.display-menu');
 const closeElement = document.querySelector('.close');
 
-// menuToggle.addEventListener('click', () => {
-//     menuElement.classList.toggle('menu-active')
-// })
-
-// closeElement.addEventListener('click', () => {
-//     menuElement.classList.toggle('menu-active')
-// })
 
 menuToggle.addEventListener('click', () => {
     menuElement.classList.add('menu-active');
